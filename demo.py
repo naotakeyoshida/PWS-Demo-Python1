@@ -14,21 +14,10 @@ def main():
     return """
     <html>
     <head>
-      <title> Pivotal Cloud Foundry Demo </title>
+        <title> Pivotal Cloud Foundry Demo </title>
     </head>
-    <body>
-      <center><FONT size="6" color="black">====== Dell EMC ======</FONT>
-      <center><b><FONT size="7" color="black">Your application is working!</FONT></b>
-      <br>
-      <br>
-      <br>
-      <center><h1> App Instance : <font color="blue"> {}
-      <br>
-      <br>
-      <center><FONT size="4" color="blue">UUID : {}</FONT>
-      <br>
-      <br>
-      </center>
+    <body bgcolor="#CCCCCC" text="#000000" link="#0000ff" vlink="#800080" alink="#ff0000">
+        <center><FONT size="6" color="black">====== Dell EMC ======</FONT>
     </body>
     </html>
     """.format(myinstance, myuuid, )
